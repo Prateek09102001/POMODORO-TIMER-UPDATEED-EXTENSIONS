@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "description": "Save your time and get things done faster.",
+    "version": "1.0.0",
+    "icons": {
+        "128": "icons/logo-128.png",
+        "48": "icons/logo-48.png",
+        "32": "icons/logo-32.png",
+        "16": "icons/logo-16.png"
+    },
+    "action": {
+        "default_icon": {
+            "128": "icons/logo-128.png",
+            "48": "icons/logo-48.png",
+            "32": "icons/logo-32.png",
+            "16": "icons/logo-16.png"
+        }
+    },
+    "permissions": ["storage", "contextMenus", "alarms", "notifications"],
+    "background": {
+        "service_worker": "service_worker.js"
+    }
+}
